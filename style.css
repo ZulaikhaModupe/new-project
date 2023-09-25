@@ -1,0 +1,29 @@
+.exercise {
+    margin: 20px;
+    border: none;
+    width: 500px;
+    border-collapse: collapse;
+    
+   
+}
+
+tr td, th{
+    /* border: 1px solid black; */
+border-bottom: 1px solid black;
+border-collapse: collapse;
+border-right: 1px solid black;
+/* border-left: 1px solid black; */
+}
+
+
+.Zulaikha td {
+border-bottom: none;
+}
+
+tr :last-child {
+border-right: none;
+}
+ 
+.first h1{
+    color: red;
+}

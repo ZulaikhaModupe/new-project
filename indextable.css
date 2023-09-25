@@ -1,0 +1,28 @@
+.companytable {
+    margin: 20px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+    
+
+tr td {
+    padding: 10px;
+    /* border: 1px solid black; */
+
+}
+
+tr:nth-child(even){
+    background-color: grey;
+}
+
+tr:hover{
+    color: aquamarine;
+    padding: 30px;
+    background-color: rgb(236, 196, 255);
+}
